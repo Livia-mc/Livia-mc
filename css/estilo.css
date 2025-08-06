@@ -1,0 +1,58 @@
+html, body
+{
+    height: 100%; 
+    margin: 0;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+    .img1{
+        position: relative; 
+        background-image: url("../img/Pokemon_fundo.jpg"); 
+        height: 100%; 
+        background-attachment: fixed; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+    }
+
+    .caption, .caption2{
+        position: absolute; 
+        left: 0; 
+        top: 50%; 
+        width: 100%; 
+        text-align: center; 
+    }
+
+    .caption span.border{
+        background-color: #054e8a;
+        color: aliceblue;
+        padding: 20px; 
+        font-size: 25px; 
+    }
+
+    .caption2 span.border{
+        background-color: #7d02f9;
+        color: aliceblue;
+        padding: 20px; 
+        font-size: 25px; 
+    }
+
+    .img2 {
+        position: relative;
+        background-image: url("../img/Purrloin.png");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .paragrafo1, .paragrafo2, .paragrafo3 {
+        padding: 50px;
+        text-align: justify;
+        background-color: white;
+        max-width: 900px;
+        margin: auto;
+    }
+    
